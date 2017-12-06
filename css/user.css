@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+div.user
+{	margin:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	
+	
+}
+div.user h2
+{
+	    color: black;
+    font-family: Kristen ITC;
+    font-size:20;
+}
+div.user span
+{
+	float:right;
+	    color: black;
+    font-family: Kristen ITC;
+    font-size:20;
+}
+div.userprofile
+{
+	height:50%;
+	border-color:#000;
+	overflow:auto;
+		padding-left:30%;
+				padding-right:30%;
+}
+
+div.userprofile img
+{
+	height:300px;
+	width:300px;
+
+	border-color:#000;
+	border:thin solid;
+	overflow:auto;
+	border-radius:100%;
+}
+
+div.ulist
+{
+	clear:left;
+	height:50%;
+	width:100%;
+	float:left;
+	overflow:auto;
+	
+}

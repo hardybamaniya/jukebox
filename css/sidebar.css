@@ -1,0 +1,185 @@
+html, body 
+{
+    height: 100%;
+}
+.app_nav {
+    width: 63px; 
+    height: 91%; 
+    bottom:12px; 
+    border:thin solid #CCC; 
+    background:#FFF; 
+    position: fixed; 
+	font-size:12px;
+    left: 0; 
+    z-index: 3;
+}
+.moduleList, .webModuleList {
+	padding:0px;
+    width: 100%;
+}
+.moduleList li {
+    width: 100%; 
+    height: 61px; 
+    border:1px solid #CCC;  
+    line-height: 60px; 
+    color: #fff; 
+    cursor: pointer; 
+    position: relative;
+}
+.moduleList li:hover {
+    overflow: visible;
+}
+.moduleList li.selected .module_icon {
+    background: #000;
+}
+.moduleList li .module_icon {
+    width: 60px; 
+    height: 60px; 
+    position: absolute; 
+    left: 0; top: 0; 
+    z-index: 3; 
+    background: #fff;
+}
+.moduleList li b, .webModule li b {
+    display: block; 
+    width: 50px; 
+    height: 50px; 
+    margin: 5px auto;
+}
+.moduleList li .message_bubble {
+    display: block; 
+    width: 20px; 
+    height: 20px; 
+    position: absolute; 
+    top: 0; 
+    left: 46px; 
+    min-width: 20px; 
+    padding: 0; 
+    background: -824px -740px no-repeat;
+}
+.moduleList li .module_title {
+    opacity: 0; 
+    min-width: 30px; 
+    width: 40px; 
+    overflow: hidden; 
+    height: 60px; 
+    line-height: 60px; 
+    padding: 0 10px; 
+    border:#CCC thin solid; 
+    position: absolute; 
+    top: 0; 
+    left: 0px; 
+    z-index: 2; 
+    text-align: center; 
+    white-space: nowrap;
+}
+.moduleList li:hover .module_title {
+    opacity: 1; 
+    width: auto; 
+    left: 60px; 
+    transition: opacity 0.5s, left 0.5s; 
+    background: #fff; color:#000;
+}
+.moduleList li.selected .module_title {
+    border:#000 thin solid;
+    background: #000; 
+    color:#FFF
+}
+.leftLine {
+    width: 100%; 
+    height: 0; 
+    line-height: 0; 
+    font-size: 0; 
+    border-top: 1px solid #474646; 
+    border-bottom: 1px solid #474646; 
+    display: none;
+}
+.module_info_list {
+    overflow: hidden;
+}
+.module_info_list li, .msgTelControl li {
+    width: 100px; 
+    float: left; 
+    cursor: pointer; 
+    margin: 0 40px 0 0; 
+    position: relative; 
+    padding-top: 100px;
+}
+.module_info_list li .ic_bg {
+    width: 100px; 
+    height: 100px; 
+    position: absolute; 
+    left: 0; 
+    top: 0;
+}
+.module_info_list li span {
+    height: 30px; 
+    line-height: 30px; 
+    background: #fafafa; 
+    display: block; 
+    text-align: center; 
+    font-size: 16px; 
+    color: #888888; 
+    cursor: default;
+}
+.module_info_list li:hover {
+    color: #08aa54;
+}
+.msgTelControl li:hover {
+    color: #444444;
+}
+.imgModule_ic .ic_bg {
+    background: -626px -306px no-repeat;
+}
+.imgModule_ic .ic_bg:hover {
+    background: -512px -202px no-repeat;
+}
+.imgModule_ic.hover .ic_bg {
+    background: -512px -202px no-repeat;
+}
+.moduleList li:hover {
+	overflow: visible;
+}
+.moduleList li.selected .module_icon {
+	background: #000;
+	
+	
+}
+.moduleList li .module_icon {
+	width: 60px;
+	 height: 60px; 
+	 position: absolute; 
+	 left: 0; 
+	 top: 0; 
+	 z-index: 3; 
+	 background: #fff;
+}
+.moduleList, .webModuleList {
+	width: 100%;
+	padding:0px;
+ }
+.moduleList li b, .webModule li b {
+	display: block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px auto;
+}
+.moduleList li .message_bubble {display: block; width: 20px; height: 20px; position: absolute; top: 0; left: 46px; min-width: 20px; padding: 0; background: -824px -740px no-repeat;}
+.list_head ol li, .list_body ul li {display: inline-block; float: left;}
+.list_body ul li .checkbox_btn {height: 36px; width: 100%; float: left;}
+.list_head ol li .check_box {margin: 15px 10px 9px 18px;}
+.list_body ul li .check_box {}
+.list_head {min-width: 800px;}
+.list_head ol {overflow: hidden; border: 1px solid transparent;}
+.list_head ol li {}
+.list_head ol li span {display: inline-block; height: 44px; line-height: 44px;}
+.list_body {min-width: 800px;}
+.list_body ul {overflow: hidden; height: 36px; position: relative; border: 1px solid #fafafa; border-radius: 5px; line-height: 36px;}
+.list_body ul:nth-child(odd) {background: #f1f1f1; border: 1px solid #f1f1f1;}
+.list_body ul.hover {border: 1px solid #ccc;}
+.list_body ul.selected {background: #fffae5; border: 1px solid #faf0c8;}
+.list_body ul.selected.hover {background: #fffae5; border: 1px solid #ccc; line-height: 34px;}
+.list_body ul.noTop {border-top: 1px solid #fffae5;}
+.moduleList li .module_title {opacity: 0; min-width: 30px; width: 40px; overflow: hidden; height: 60px; line-height: 60px; padding: 0 10px; border:#CCC thin solid; position: absolute; top: 0; left: 0px; z-index: 2; text-align: center; white-space: nowrap;}
+.moduleList li:hover .module_title {opacity: 1; width: auto; left: 60px; transition: opacity 0.5s, left 0.5s; background: #fff; color:#000; }
+.moduleList li.selected .module_title {border:#000 thin solid;background: #000; color:#FFF}
