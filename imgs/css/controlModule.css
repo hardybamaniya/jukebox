@@ -1,0 +1,148 @@
+
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	color:#000;	
+}
+div#video_player_box
+{
+	
+	padding:0px;
+	position:fixed;
+	height:70px;
+	width:100%;
+	font-size:20px;
+	background:#F5F5F5;
+	z-index: 5;
+	left:0px;
+	bottom:0px;
+	
+}
+div#controlbox
+{
+	border:thin #CCC solid;
+	padding:5px 20px 150px 20px;
+	background:white;
+	vertical-align:middle;	
+
+}
+div#controlbox button
+{
+	cursor:pointer;
+}
+div#controlbox span
+{
+	border:thin #CCC solid;
+	border-radius:10px;
+	padding:3px;
+}
+button#btn_playpause
+{
+	border:thin solid;
+	background:url(../imgs/pause.gif);	
+	width:50px;
+	border:0px;
+	height:50px;	
+}
+button#btn_previous
+{
+	background:url(../imgs/previous.gif);	
+	width:50px;
+	border:0px;
+	margin-left:20px;
+	height:50px;	
+}
+button#btn_next
+{
+	background:url(../imgs/next.gif);	
+	width:50px;
+	border:0px;
+	height:50px;	
+}
+button#btn_mute
+{
+	background:url(../imgs/vol.gif);	
+	width:63px;
+	border:0px;
+	height:50px;	
+}
+
+
+#seekslider
+{
+	width:50%;
+	color:#CCC !important; 	
+}
+div#songtit
+{
+	position:absolute;
+	height:30px;
+	font-family:"Rosewood Std Regular", "Bauhaus 93";
+	
+	width:45%;
+	left:26%;
+	margin-left:20px;
+	font-size:14px;
+	top:15px;
+}
+#volumeslider
+{
+	width:10%; 	
+}
+input[type='range']::-ms-track
+{
+	-webkit-appearance:none !important;
+	border:thin solid #000;
+	background:#000;
+	height:5px;
+	border-radius:10px;
+	color:transparent; !important; 	
+}
+input[type='range']
+{
+	-webkit-appearance:none !important;
+	border:thin solid #000;
+	background:#000;
+	height:5px;
+	border-radius:10px;
+	color:transparent; !important; 	
+}
+
+input[type='range']::-ms-fill-lower
+{
+	background:#fff;
+	color:#fff !important; 	
+	border-radius:10px;
+	appearance:none !important;
+}
+input[type='range']::-ms-fill-upper
+{
+	background:#000;
+	appearance:none !important;
+	border-radius:10px;
+}
+input[type='range']::-ms-thumb
+{
+	-webkit-appearance:none !important;
+	background:#555;
+	height:18px;
+	width:22px;
+	border-radius:20%; 
+	value:0;
+}
+input[type='range']::-webkit-slider-thumb
+{
+	-webkit-appearance:none !important;
+	background:#EBEBEB;
+	border:thin black solid;
+	height:18px;
+	width:22px;
+	border-radius:30%; 
+	value:0;
+}
+video#video_play
+{
+	height:0px;	
+}
+

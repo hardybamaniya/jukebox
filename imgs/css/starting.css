@@ -1,0 +1,38 @@
+body
+{
+  
+}
+input
+{
+     image-resolution: from-image;
+  
+}
+
+img.logo
+{
+    height: 500px;
+    margin-top:-20px;
+}
+img.logo1
+{
+	height:auto;
+}
+div.logo
+{
+    top: -200px;
+    position: static;
+    left:500px;
+}
+div.content
+{
+    position:relative;
+    top:-80px;
+}
+div.footer
+{
+    position:relative;
+    color: black;
+    font-family: Kristen ITC;
+    font-size:20;
+    margin-top:-70px;
+}

@@ -1,0 +1,74 @@
+
+.tab
+{
+	height:auto;
+	width:100%;
+	background-color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	
+}
+.trow 
+{
+	height:30px;
+	width:100%;
+	background-color:#fff;
+	color:#000;
+	padding:3px;
+	
+}
+.trow a
+{
+	height:20px;
+	background-color:#999;
+	color:#000;
+	margin:3px;
+	text-align:center;
+}
+.trow a:hover>div
+{
+
+	color:#ccc;
+	background:#000;
+}
+
+.tno 
+{
+	float:left;
+	height:100%;
+	width:5%;
+	background-color:#fff;
+		border:thin solid;
+		border-radius:40px;
+		margin:3px;
+}
+.tartist
+{
+	float:left;
+	height:100%;
+	width:40%;
+	background-color:#fff;
+	border:thin solid;
+	border-radius:40px;
+	margin:3px;
+}
+.talbum
+{
+	float:left;
+	height:100%;
+	width:40%;
+	border-radius:40px;
+	background-color:#FFF;
+	border:thin solid;
+margin:3px;
+}
+.tsong
+{
+	float:left;
+	height:100%;
+	border-radius:40px;
+	width:5%;
+	background-color:#FFF;
+	border:thin solid;
+	margin:3px;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+.row 
+{
+	height:30px;
+	width:100%;
+	background-color:#fff;
+	color:#000;
+	padding:3px;
+	float:left;
+	text-align:center;
+
+}
+.one 
+{
+	float:left;
+	height:100%;
+	width:5%;
+	background-color:#fff;
+		border:thin solid;
+		border-radius:40px;
+		margin:3px;
+}
+.two
+{
+	float:left;
+	height:100%;
+	width: auto;
+	min-width:40%;
+	background-color:#fff;
+	border:thin solid;
+	border-radius:40px;
+	margin:3px;
+}
+.three
+{
+	float:left;
+	height:100%;
+
+		width: auto;
+	min-width:40%;
+	border-radius:40px;
+	background-color:#FFF;
+	border:thin solid;
+margin:3px;
+}
+.four
+{
+	float:left;
+	height:100%;
+	border-radius:40px;
+	width:5%;
+	background-color:#FFF;
+	border:thin solid;
+	margin:3px;
+}
+.row a
+{
+	height:20px;
+	background-color:#999;
+	color:#000;
+	margin:3px;
+	text-align:center;
+}
+.row a:hover>div
+{
+
+	color:#FFF;
+	background:#000;
+}
+.alone
+{
+	color:#FFF;
+	background:#000;
+	
+}

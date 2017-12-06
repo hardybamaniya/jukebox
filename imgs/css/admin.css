@@ -1,0 +1,18 @@
+#normal
+{
+	height:200px;	
+}
+#normal>div 
+{
+	height:120px;
+	width:100px;
+	float:left;
+	margin:5px;
+		
+}
+#normal img
+{
+	height:100px;
+	width:100px;
+		
+}
